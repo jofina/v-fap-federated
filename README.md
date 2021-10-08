@@ -17,6 +17,6 @@ This script coordinates the sending and receiving between seed node and service 
 The parameter and the data obtained by running "data_prepro_split.py" is then send to 4 rapaberry pi's.
 
 dnn_global.py
-Thi spython script gets executed on each of the raspberry pi's using the received raining data  and the inital parameters.
+This python script gets executed on each of the raspberry pi's using the received raining data  and the inital parameters.
 
 The trained final parameters are receved by the seed node where the aggreation technique is used to obtain the final aggregated weights.  this aggregation part has been done in a jupyter notebook.
